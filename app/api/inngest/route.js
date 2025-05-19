@@ -10,5 +10,3 @@ export const { GET, POST, PUT } = serve({
     syncUserDeletion
   ],
 });
-
-
