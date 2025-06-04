@@ -57,7 +57,7 @@ export async function POST(request) {
                 success: false,
                 message: error.message,
             },
-            { status: 504 }
+            { status: 500 }
         );
     }
 }
