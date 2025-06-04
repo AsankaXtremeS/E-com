@@ -21,10 +21,12 @@ export async function POST(request) {
 
         //calculate total amount
 
-        const amount = await items.reduce(async (total, item) => {
-            const product = await Product.findById(item.product);
-            return acc + product.price * item.quantity;
-        },0)
+        const amount = await items.reduce(async (totalPromise, item) => {
+        const total = await totalPromise;
+        const product = await Product.findById(item.product);
+        return total + product.price * item.quantity;
+        }, Promise.resolve(0));
+
 
         await inngest.send({
             name: "order/created",
