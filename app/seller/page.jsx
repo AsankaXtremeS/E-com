@@ -120,15 +120,12 @@ const AddProduct = () => {
               id="category"
               className="outline-none md:py-2.5 py-2 px-3 rounded border border-gray-500/40"
               onChange={(e) => setCategory(e.target.value)}
-              value={category} // ✅ FIXED: Use value instead of defaultValue
+              value={category}
             >
-              <option value="Earphone">Earphone</option>
-              <option value="Headphone">Headphone</option>
-              <option value="Watch">Watch</option>
-              <option value="Smartphone">Smartphone</option>
-              <option value="Laptop">Laptop</option>
-              <option value="Camera">Camera</option>
-              <option value="Accessories">Accessories</option>
+              <option value="Men">Men's</option>
+              <option value="Women">Women's</option>
+              <option value="Unisex">Unisex</option>
+              <option value="Kids">Kid's</option>
             </select>
           </div>
 
@@ -165,7 +162,7 @@ const AddProduct = () => {
 
         <button
           type="submit"
-          className="px-8 py-2.5 bg-orange-600 text-white font-medium rounded"
+          className="px-8 py-2.5 bg-blue-500 text-white font-medium rounded"
         >
           ADD
         </button>

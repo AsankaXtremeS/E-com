@@ -9,17 +9,17 @@ const Footer = () => {
         <Image className="hidden md:block" src={assets.logo} alt="logo" />
         <div className="hidden md:block h-7 w-px bg-gray-500/60"></div>
         <p className="py-4 text-center text-xs md:text-sm text-gray-500">
-          Copyright 2025 © greatstack.dev All Right Reserved.
+          Copyright 2025 © B23-Web Project All Right Reserved.
         </p>
       </div>
       <div className="flex items-center gap-3">
-        <a href="#">
+        <a href="https://www.facebook.com">
           <Image src={assets.facebook_icon} alt="facebook_icon" />
         </a>
-        <a href="#">
+        <a href="https://www.twitter.com">
           <Image src={assets.twitter_icon} alt="twitter_icon" />
         </a>
-        <a href="#">
+        <a href="www.instagram.com">
           <Image src={assets.instagram_icon} alt="instagram_icon" />
         </a>
       </div>

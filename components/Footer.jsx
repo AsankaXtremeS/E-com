@@ -9,16 +9,13 @@ const Footer = () => {
         <div className="w-4/5">
           <Image className="w-28 md:w-32" src={assets.logo} alt="logo" />
           <p className="mt-6 text-sm">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Indulge in the world of luxury scents with our handcrafted collection of perfumes. Each fragrance is a masterpiece, meticulously curated to evoke emotions, memories, and experiences. From the delicate notes of blooming florals to the bold allure of woody undertones, our perfumes are an invitation to journey through a symphony of scents. Elevate your senses and make a statement with every spray. Explore our exclusive range and find the perfect scent that resonates with your unique style.
           </p>
         </div>
 
         <div className="w-1/2 flex items-center justify-start md:justify-center">
           <div>
-            <h2 className="font-medium text-gray-900 mb-5">Company</h2>
+            <h2 className="font-medium text-gray-900 mb-5">Essentique</h2>
             <ul className="text-sm space-y-2">
               <li>
                 <a className="hover:underline transition" href="#">Home</a>
@@ -38,16 +35,16 @@ const Footer = () => {
 
         <div className="w-1/2 flex items-start justify-start md:justify-center">
           <div>
-            <h2 className="font-medium text-gray-900 mb-5">Get in touch</h2>
+            <h2 className="font-medium text-gray-900 mb-5">Contact us</h2>
             <div className="text-sm space-y-2">
-              <p>+1-234-567-890</p>
-              <p>contact@greatstack.dev</p>
+              <p>076-0589218</p>
+              <p>sampathhpha.23@uom.lk</p>
             </div>
           </div>
         </div>
       </div>
       <p className="py-4 text-center text-xs md:text-sm">
-        Copyright 2025 © GreatStack.dev All Right Reserved.
+        Copyright 2025 © B23-Web Project All Right Reserved.
       </p>
     </footer>
   );

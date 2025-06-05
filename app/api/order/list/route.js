@@ -1,8 +1,8 @@
-// /app/api/order/list/route.js
 import connectDB from "@/config/db";
 import Order from "@/models/Order";
 import { getAuth } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
+import Address from "@/models/Address";
 
 export async function GET(request) {
   try {
